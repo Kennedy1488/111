@@ -1,0 +1,155 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    background: url(../img/img.jpg) lightgray 50% / cover no-repeat;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.header {
+    width: 100%;
+    padding: 10px auto;
+    border-bottom: #FFF 2px solid;
+}
+
+.nav {
+    display: flex;
+    width: 80%;
+}
+
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav__item {
+    text-transform: uppercase;
+    list-style: none;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav__link {
+    text-transform: uppercase;
+    color: #FFF;
+    list-style: none;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+img {
+    width: 100%;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.block:hover {
+    transform: scaleX(1.5) scaleY(1.5);
+    background: linear-gradient(135deg, white, black);
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 800px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main__title {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__desc {
+    color: #FFF;
+
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitle {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list {}
+
+.item {
+    color: #FFF;
+    margin: 15px;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.table {
+    color: #FFF;
+
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block {
+    color: #FFF;
+
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
